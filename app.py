@@ -86,7 +86,7 @@ def load_image(image_path):
 
 # Slide 1: Title Slide
 if selected_slide == "Title Slide":
-    st.markdown('<h1 class="main-header">Predictive Maintenance System for Solar Power Plant with Machine Learning</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">Predictive Maintenance for Solar Power Plant with Machine Learning</h1>', unsafe_allow_html=True)
     
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
