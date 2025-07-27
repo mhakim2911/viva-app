@@ -128,7 +128,7 @@ elif selected_slide == "Introduction & Background":
         st.info("According to the International Energy Agency (IEA), achieving net zero emissions by 2050 requires a 70% contribution from wind and solar power.")
     
     with col2:
-        solar_plant_img = load_image("C:/Users/User/My Files/CURRENT/FYP_1/streamlit_presentation/images/solar_plant.jpg")
+        solar_plant_img = load_image("images/solar_plant.jpg")
         if solar_plant_img:
             st.image(solar_plant_img, caption="Solar Power Plant Aerial View", use_container_width=True)
 
