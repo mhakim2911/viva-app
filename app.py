@@ -98,8 +98,6 @@ if selected_slide == "Title Slide":
     st.markdown("### Supervisor: AP Ts Dr Norshakirah Bt A Aziz")
     st.markdown("### Internal Examiner: Dr. Alex Ooi Boon Yaik")
     st.markdown("### External Examiner: Mr Adam Ridhwan")
-    st.markdown("### Universiti Teknologi Petronas")
-    st.markdown("### May 2025")
 
 # Slide 2: Introduction & Background
 elif selected_slide == "Introduction & Background":
