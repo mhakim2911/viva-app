@@ -163,7 +163,7 @@ elif selected_slide == "Problem Statement & Objectives":
         )
 
     with col2:
-        inverter_img = load_image("C:/Users/User/My Files/CURRENT/FYP_1/streamlit_presentation/images/isometric-solar-panel-cell-system-260nw-1863823798.jpg")
+        inverter_img = load_image("images/isometric-solar-panel-cell-system-260nw-1863823798.jpg")
         if inverter_img:
             st.image(
                 inverter_img,
@@ -194,7 +194,7 @@ elif selected_slide == "Literature Review":
             st.write(description)
     
     with col2:
-        crisp_dm_img = load_image("C:/Users/User/My Files/CURRENT/FYP_1/streamlit_presentation/images/lt.jpg")
+        crisp_dm_img = load_image("images/lt.jpg")
         if crisp_dm_img:
             st.image(
                 crisp_dm_img,
@@ -229,7 +229,7 @@ elif selected_slide == "Methodology: CRISP-DM":
             st.write(description)
     
     with col2:
-        crisp_dm_img = load_image("C:/Users/User/My Files/CURRENT/FYP_1/streamlit_presentation/images/crisp_dm.png")
+        crisp_dm_img = load_image("images/crisp_dm.png")
         if crisp_dm_img:
             st.image(
                 crisp_dm_img,
@@ -406,7 +406,7 @@ elif selected_slide == "Results & Evaluation":
             height=400,
             yaxis=dict(range=[0, 1])
         )
-        crisp_dm_img = load_image("C:/Users/User/My Files/CURRENT/FYP_1/streamlit_presentation/images/result.png")
+        crisp_dm_img = load_image("images/result.png")
         if crisp_dm_img:
             st.image(
                 crisp_dm_img,
@@ -531,7 +531,7 @@ elif selected_slide == "Conclusion":
             st.write(description)
     
     with col2:
-        solar_plant_img = load_image("C:/Users/User/My Files/CURRENT/FYP_1/streamlit_presentation/images/premium.jpg")
+        solar_plant_img = load_image("images/premium.jpg")
         if solar_plant_img:
             st.image(solar_plant_img, caption="Solar Power Plant", use_container_width=True)
         
