@@ -183,7 +183,7 @@ elif selected_slide == "Literature Review":
         
         phases = [
             ("Solar PV Growth and Importance", "Solar PV is a rapidly expanding renewable energy source, crucial for energy transition and achieving net-zero emissions. Efficient operation is vital for optimizing energy yield and longevity."),
-            ("Common PV System Failures", "V systems are susceptible to operational failures such as inverter overheating, string disconnections, partial shade, soiling, snow, and degradation mechanisms "),
+            ("Common PV System Failures", "PV systems are susceptible to operational failures such as inverter overheating, string disconnections, partial shade, soiling, snow, and degradation mechanisms "),
             ("Anomaly Detection in Solar Plants", "Agussalim (2024) studied predictive maintenance focusing on anomaly detection using LSTM-AE models, which excelled in capturing temporal dependencies and complex patterns in PV datasets."),
             ("Solar Irradiance and Temperature Prediction", "Jose et al. (2022) reviewed models (ANN, SVM, ANFIS) for predicting solar irradiance and temperaturein order to capture stochastic behaviors and non-linearities in weather variables"),
             ("Predicting PV Underperformance", "Demetris et al. (2024) used XGBoost, one-class SVM, and Facebook Prophet (FBP) algorithm to predict PV underperformance, detect faults, and generate predictive maintenance alerts. Their routine could simulate PV system behavior under dynamic conditions and generate alerts up to 7 days in advance."),
