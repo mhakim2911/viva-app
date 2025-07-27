@@ -95,6 +95,9 @@ if selected_slide == "Title Slide":
             st.image(solar_plant_img, caption="Solar Power Plant", use_container_width=True)
     
     st.markdown("### By: Muhammad Hakim bin Muhammad Taufik")
+    st.markdown("### Supervisor: AP Ts Dr Norshakirah Bt A Aziz")
+    st.markdown("### Internal Examiner: Dr. Alex Ooi Boon Yaik")
+    st.markdown("### External Examiner: Mr Adam Ridhwan")
     st.markdown("### Universiti Teknologi Petronas")
     st.markdown("### May 2025")
 
