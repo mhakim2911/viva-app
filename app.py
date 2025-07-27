@@ -90,7 +90,7 @@ if selected_slide == "Title Slide":
     
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
-        solar_plant_img = load_image("C:/Users/User/My Files/CURRENT/FYP_1/streamlit_presentation/images/solar_plant.jpg")
+        solar_plant_img = load_image("images/solar_plant.jpg")
         if solar_plant_img:
             st.image(solar_plant_img, caption="Solar Power Plant", use_container_width=True)
     
