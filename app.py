@@ -101,7 +101,7 @@ if selected_slide == "Title Slide":
 
 # Slide 2: Introduction & Background
 elif selected_slide == "Introduction & Background":
-    st.markdown('<h2 class="slide-header">Introduction & Background</h2>', unsafe_allow_html=True)
+    st.markdown('<h2 class="slide-header">1. Introduction & Background</h2>', unsafe_allow_html=True)
     
     col1, col2 = st.columns([1, 1])
     
@@ -135,7 +135,7 @@ elif selected_slide == "Introduction & Background":
 
 # Slide 3: Problem Statement & Objectives
 elif selected_slide == "Problem Statement & Objectives":
-    st.markdown('<h2 class="slide-header">Problem Statement & Objectives</h2>', unsafe_allow_html=True)
+    st.markdown('<h2 class="slide-header">2. Problem Statement & Objectives</h2>', unsafe_allow_html=True)
     
     col1, col2 = st.columns([1, 1])
     
@@ -174,7 +174,7 @@ elif selected_slide == "Problem Statement & Objectives":
 
 # Slide 4: Literature Review
 elif selected_slide == "Literature Review":
-    st.markdown("## Literature Review")
+    st.markdown("## 3. Literature Review")
     
     col1, col2 = st.columns([1, 1])
     
@@ -207,7 +207,7 @@ elif selected_slide == "Literature Review":
 
 # Slide 4: Methodology
 elif selected_slide == "Methodology: CRISP-DM":
-    st.markdown("## Methodology: CRISP-DM")
+    st.markdown("## 4. Methodology: CRISP-DM")
     
     col1, col2 = st.columns([1, 1])
     
@@ -244,7 +244,7 @@ elif selected_slide == "Methodology: CRISP-DM":
 
 # Slide 5: Dataset & Data Preparation
 elif selected_slide == "Dataset & Data Preparation":
-    st.markdown('<h2 class="slide-header">Dataset & Data Preparation</h2>', unsafe_allow_html=True)
+    st.markdown('<h2 class="slide-header">5. Dataset & Data Preparation</h2>', unsafe_allow_html=True)
     
     col1, col2 = st.columns([1, 1])
     
@@ -295,7 +295,7 @@ elif selected_slide == "Dataset & Data Preparation":
 
 # Slide 6: Machine Learning Models
 elif selected_slide == "Machine Learning Models":
-    st.markdown("## Machine Learning Models")
+    st.markdown("##6. Machine Learning Models")
     
     col1, col2 = st.columns([1, 1])
     
@@ -371,7 +371,7 @@ elif selected_slide == "Machine Learning Models":
 
 # Slide 7: Results & Evaluation
 elif selected_slide == "Results & Evaluation":
-    st.markdown("## Results & Evaluation")
+    st.markdown("##7. Results & Evaluation")
     
     col1, col2 = st.columns([1, 1])
     
@@ -419,7 +419,7 @@ elif selected_slide == "Results & Evaluation":
 
 # Slide 8: Key Findings & Implications
 elif selected_slide == "Key Findings & Implications":
-    st.markdown("## Key Findings & Implications")
+    st.markdown("##8. Key Findings & Implications")
     
     col1, col2 = st.columns([1, 1])
     
@@ -443,7 +443,7 @@ elif selected_slide == "Key Findings & Implications":
 
 # Slide 9: Limitations & Future Work
 elif selected_slide == "Limitations & Future Work":
-    st.markdown("## Limitations & Future Work")
+    st.markdown("##9. Limitations & Future Work")
     
     col1, col2 = st.columns([1, 1])
     
@@ -513,7 +513,7 @@ elif selected_slide == "Limitations & Future Work":
 
 # Slide 10: Conclusion
 elif selected_slide == "Conclusion":
-    st.markdown("## Conclusion")
+    st.markdown("##10. Conclusion")
     
     col1, col2 = st.columns([1, 1])
     
