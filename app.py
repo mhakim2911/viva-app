@@ -219,7 +219,7 @@ elif selected_slide == "Methodology: CRISP-DM":
         phases = [
             ("Business Understanding", "The primary goal is to predict the need for maintenance based on inverter efficiency degradation. The system aims to generate a binary maintenance flag (indicating whether an inverter is likely to require maintenance soon) from historical inverter and weather data."),
             ("Data Understanding", "The study assumes the dataset is a compilation of readings from 22 underperforming inverters within a solar power plant."),
-            ("Data Preparation", "Filtering non-operational periods, feature engineering"),
+            ("Data Preparation", "Preparing data for machine learning analysis"),
             ("Modeling", "Training Random Forest, KNN, and SVM classifiers"),
             ("Evaluation", "Assessing model performance using metrics such as accuracy, precision, recall, and F1-score."),
             
